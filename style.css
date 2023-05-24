@@ -16,9 +16,6 @@ body {
 	letter-spacing: 0.06em;
 	background: #000 url("img/background.jpg") no-repeat center center / cover fixed;	
 }
-#kontakt {
-	background: #000;
-}
 img {
 	vertical-align: bottom;
 	max-width: 100%;
@@ -72,13 +69,13 @@ h6 {font-size: 1.14em}
 #nav ul li a:active {
 	color: #555;
 }
-#main p{
-	width: 300px;
-	padding-bottom: 500px;
+#main-txt {
+	text-align: center;
 }
-#map {
-	height: 400px;
-	margin: 50px auto;
+#main-txt p{
+	max-width: 600px;
+	margin: 100px auto;
+	padding-bottom: 500px;
 }
 #footer {
 	background: #000;
@@ -112,20 +109,6 @@ h6 {font-size: 1.14em}
 	#header .wrapper {
 		display: flex;
 		justify-content: space-between;
-	}
-	#main-contact .wrapper{
-		display: flex;
-		justify-content: space-between;
-		margin: 50px auto;
-}
-	#map {
-		height: 400px;
-		flex-basis: 600px;
-		margin: 0;
-}
-	#contact-img {
-		flex-basis: 400px;
-		margin-right: 10px;
 	}
 }
 	
